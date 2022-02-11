@@ -5,8 +5,8 @@ public class demo1 {
 	 public static void main(String[] args) throws IOException {
 	        
 	        int sum;
-	        InputStreamReader isr = new InputStreamReader();
-	        BufferedReader br = new BufferedReader(new isr(System.in));
+	        InputStreamReader isr = new InputStreamReader(System.in);
+	        BufferedReader br = new BufferedReader(isr);
 	        System.out.println("Enter First Number: ");
 	        int a = Integer.parseInt(br.readLine());
 	        
