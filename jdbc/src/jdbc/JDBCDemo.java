@@ -9,7 +9,7 @@ public class JDBCDemo {
 		Class.forName("com.mysql.cj.jdbc.Driver");// step 2  class loader 
 		
 		
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample","root", "admin");//step 3 create connection
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/arun","root", "admin");//step 3 create connection
 		
 		Statement st = con.createStatement();// step 4
 		//String query = "create table student(ID int primary key,SName varchar(20), SMarks int)";//step 6
